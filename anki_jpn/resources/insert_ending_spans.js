@@ -1,6 +1,3 @@
-{{FrontSide}}<br><span class=jp><span id=conj></span></span><br>{{meaning}}<br>
-
-<script>
 function insert_ending_spans(dict_form, conjugation) {
     if (dict_form == conjugation) {
         return conjugation;
@@ -45,6 +42,3 @@ function insert_ending_spans(dict_form, conjugation) {
     }
     return new_conjugation;
 }
-var new_conjugation = delta_split("{{furigana:reading}}", "{{furigana:CONJUGATION_FIELD}}");
-document.getElementById("conj").innerHTML = new_conjugation;
-</script>
